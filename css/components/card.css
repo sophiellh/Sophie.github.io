@@ -1,0 +1,45 @@
+.card {
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+	padding: 20px;
+	text-align: center;
+	margin: 12px;
+	padding-bottom: 42px;
+	margin-top: 42px;
+	border-radius: 10%;
+	flex-grow: 1;
+	color: #483838;
+	width: 200px;
+}
+
+.card:hover {
+	background-color: #28282410;
+	transition: 0.5s;
+}
+
+.card img {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+#presentation {
+	flex-basis: 1000px;
+}
+
+#contacts {
+	flex-basis: 1000px;
+}
+
+#contacts a {
+	text-decoration: none;
+	padding: 8px 50px;
+	color: #483838;
+	border-radius: 6px;
+	font-size: 55px;
+}
+
+#contacts a:hover {
+	transition: 0.5s;
+	font-size: 60px;
+	color: #553939;
+}
